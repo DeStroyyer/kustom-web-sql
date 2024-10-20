@@ -41,7 +41,7 @@ spec:
       volumes:
       - name: mysql-data
         persistentVolumeClaim:
-          claimName: mysql-pvc
+          claimName: mysql-pvc-custom
       - name: init-scripts
         configMap:
           name: my-config-kustomize
